@@ -10,7 +10,7 @@ import styles from '../styles/Logos.module.scss';
 const Logos = () => {
 	return (
 		<div className={styles.logos}>
-			<h1>adamkeyes</h1>
+			<h1>MinNaingKoKo</h1>
 			<div className={styles.icons}>
 				<GithubIcon className={styles['icons-github']} alt="github icon" />
 
