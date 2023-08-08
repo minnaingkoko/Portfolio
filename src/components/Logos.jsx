@@ -12,14 +12,14 @@ const Logos = () => {
 		<div className={styles.logos}>
 			<h1>MinNaingKoKo</h1>
 			<div className={styles.icons}>
-				<GithubIcon className={styles['icons-github']} alt="github icon" />
+				<GithubIcon href="https://github.com/minnaingkoko" className={styles['icons-github']} alt="github icon" />
 
-				<FemIcon className={styles['icons-fem']} alt="frontend-mentor icon" />
-				<LinkedinIcon
+				<FemIcon href="https://www.frontendmentor.io/profile/minnaingkoko" className={styles['icons-fem']} alt="frontend-mentor icon" />
+				<LinkedinIcon href="https://www.linkedin.com/in/minnaingkoko/"
 					className={styles['icons-linkedin']}
 					alt="linkedin icon"
 				/>
-				<TwitterIcon className={styles['icons-twitter']} alt="twitter icon" />
+				<TwitterIcon href="https://twitter.com/Min_Naing_Ko_Ko" className={styles['icons-twitter']} alt="twitter icon" />
 			</div>
 		</div>
 	);
